@@ -1,0 +1,10 @@
+.App {
+  font-family: "Roboto", sans-serif;
+}
+
+.body-wrapper {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  gap: 2em;
+}

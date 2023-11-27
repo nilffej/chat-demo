@@ -1,0 +1,39 @@
+.chatbox__textbox {
+  position: absolute;
+  bottom: 0;
+  height: 3em;
+  width: inherit;
+  background-color: #464646;
+}
+
+.chatbox__textfield {
+  resize: none;
+  font-family: inherit;
+  background-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  color: white;
+  height: inherit;
+  width: 18em;
+  border: none;
+  outline: none;
+  padding: 0.5em;
+}
+
+.chatbox__send {
+  position: absolute;
+  height: inherit;
+  width: 3em;
+  color: white;
+  right: 0;
+  cursor: pointer;
+}
+
+.chatbox__sendicon {
+  top: 0;
+  transform: translate(50%, 50%);
+  right: 0;
+}
+
+.chatbox__send:hover .chatbox__sendicon {
+  color: gray;
+}
